@@ -15,27 +15,18 @@
  } 
   },
 
-{
-  "name": "teledrive",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "18.x"
-  }
-}
-
-{
-  "name": "teledrive",
-  "description": "a really cool app",
-  "version": "0.0.1",
-  "engines": {
-    "npm": "7.x"
-  }
-}
-
   "workspaces": [
     "web",
     "api"
   ],
   "dependencies": {}
+}
+
+{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  }
 }
