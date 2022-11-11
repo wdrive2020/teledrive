@@ -12,8 +12,6 @@
     "build": "yarn workspaces run build",
     "start": "cd api && node dist/index.js",
     "docs": "USE_SSH=true cd docs && yarn deploy"
-    "engines": { 
-    "node": "4.1.1" 
  } 
   },
   "workspaces": [
