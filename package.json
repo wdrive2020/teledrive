@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": "4.1.1"
+    "node": "16.14.0"
   },
   "scripts": {
     "web": "yarn workspace web",
