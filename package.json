@@ -13,6 +13,18 @@
     "start": "cd api && node dist/index.js",
     "docs": "USE_SSH=true cd docs && yarn deploy"
   },
+    "engines": {
+    "node": "4.1.1"
+  }
+}
+{
+  "name": "example-app",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  }
+}
   "workspaces": [
     "web",
     "api"
